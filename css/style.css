@@ -372,50 +372,44 @@ textarea {
   /* 2 */ }
 
 @font-face {
-  font-family: 'quattrocento_sansbold';
-  src: url("../fonts/quattrocentosans-bold-webfont.woff2") format("woff2"), url("../fonts/quattrocentosans-bold-webfont.woff") format("woff");
+  font-family: 'bebasneuebook';
+  src: url("../fonts/bebasneuebook.woff2") format("woff2"), url("../fonts/bebasneuebook.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'quattrocento_sansitalic';
-  src: url("../fonts/quattrocentosans-italic-webfont.woff2") format("woff2"), url("../fonts/quattrocentosans-italic-webfont.woff") format("woff");
+  font-family: 'bebasneueregular';
+  src: url("../fonts/bebasneueregular.woff2") format("woff2"), url("../fonts/bebasneueregular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'quattrocento_sansregular';
-  src: url("../fonts/quattrocentosans-regular-webfont.woff2") format("woff2"), url("../fonts/quattrocentosans-regular-webfont.woff") format("woff");
+  font-family: 'latoblack';
+  src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'rufina-bold-webfont';
-  src: url("../fonts/rufina-bold-webfont.woff2") format("woff2"), url("../fonts/rufina-bold-webfont.woff") format("woff");
+  font-family: 'latoregular';
+  src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Quicksand Regular';
-  src: url("../fonts/Quicksand Regular.woff2") format("woff2"), url("../fonts/Quicksand Regular.woff") format("woff");
+  font-family: 'opensans';
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'juliussansone-regular-webfont';
-  src: url("../fonts/juliussansone-regular-webfont.woff2") format("woff2"), url("../fonts/juliussansone-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'gildadisplay-regular-webfont';
-  src: url("../fonts/gildadisplay-regular-webfont.woff2") format("woff2"), url("../fonts/gildadisplay-regular-webfont.woff") format("woff");
+  font-family: 'opensanslightitalic';
+  src: url("../fonts/opensanslightitalic.woff2") format("woff2"), url("../fonts/opensanslightitalic.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 body {
   position: relative;
-  font-family: quattrocento_sansregular, Arial, sans-serif;
+  font-family: opensans, Arial, sans-serif;
   font-size: 14px; }
 
 a {
