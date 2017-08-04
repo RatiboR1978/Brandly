@@ -8,7 +8,10 @@ a {
   text-decoration: none;
 }
 
-
+.wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 img {
   max-width: 100%;
@@ -21,8 +24,3 @@ img {
   display: table;
   clear: both;
 }
-
-  .wrap {
-    display: flex;
-    justify-content: center;
-  }

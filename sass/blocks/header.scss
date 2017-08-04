@@ -1,0 +1,86 @@
+.header {
+  background: url("../img/bg.jpg") no-repeat;
+  min-height: 932px;
+}
+.header__logo {
+  float: left;
+  p {
+    margin-top: 28px;
+    font-family: bebasneueregular, Arial, sans-serif;
+    font-size: 48px;
+    color: #dc0000;
+    span {
+      font-size: 36px;
+    }
+  }
+}
+
+.header__menu {
+  float: right;
+  margin-top: 47px;
+  a {
+    color: white;
+    font-size: 16px;
+    margin-right: 80px;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__text {
+  margin-top: 175px;
+  text-align: center;
+  color: white;
+  h1 {
+    font-family: latoblack, Arial, sans-serif;
+    font-size: 58px;
+  }
+}
+
+.header__text-light{
+  font-family: opensanslight, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.header__text-normal {
+  font-family: opensanslight, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.header__button {
+  display: block;
+  margin: 50px auto 0;
+  width: 200px;
+  height: 60px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-family: latoblack, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.header__paginations {
+  margin-top: 245px;
+  text-align: center;
+}
+
+.header__pagination {
+  margin-right: 10px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.header__pagination--active {
+  background: none;
+  border: 2px solid white;
+  vertical-align: middle;
+}

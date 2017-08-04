@@ -407,6 +407,12 @@ textarea {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'opensanslight';
+  src: url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   position: relative;
   font-family: opensans, Arial, sans-serif;
@@ -414,6 +420,10 @@ body {
 
 a {
   text-decoration: none; }
+
+.wrap {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 img {
   max-width: 100%;
@@ -424,12 +434,76 @@ img {
   display: table;
   clear: both; }
 
-.wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.header {
+  background: url("../img/bg.jpg") no-repeat;
+  min-height: 932px; }
+
+.header__logo {
+  float: left; }
+  .header__logo p {
+    margin-top: 28px;
+    font-family: bebasneueregular, Arial, sans-serif;
+    font-size: 48px;
+    color: #dc0000; }
+    .header__logo p span {
+      font-size: 36px; }
+
+.header__menu {
+  float: right;
+  margin-top: 47px; }
+  .header__menu a {
+    color: white;
+    font-size: 16px;
+    margin-right: 80px; }
+  .header__menu a:last-child {
+    margin-right: 0; }
+
+.header__text {
+  margin-top: 175px;
+  text-align: center;
+  color: white; }
+  .header__text h1 {
+    font-family: latoblack, Arial, sans-serif;
+    font-size: 58px; }
+
+.header__text-light {
+  font-family: opensanslight, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 10px; }
+
+.header__text-normal {
+  font-family: opensanslight, Arial, sans-serif;
+  font-size: 30px; }
+
+.header__button {
+  display: block;
+  margin: 50px auto 0;
+  width: 200px;
+  height: 60px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-family: latoblack, Arial, sans-serif;
+  font-size: 18px; }
+
+.header__paginations {
+  margin-top: 245px;
+  text-align: center; }
+
+.header__pagination {
+  margin-right: 10px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  vertical-align: middle; }
+
+.header__pagination--active {
+  background: none;
+  border: 2px solid white;
+  vertical-align: middle; }
