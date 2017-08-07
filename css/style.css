@@ -508,6 +508,9 @@ img {
   border: 2px solid white;
   vertical-align: middle; }
 
+.products {
+  margin-bottom: 50px; }
+
 .products__title {
   font-family: opensanslightitalic, Arial, sans-serif;
   font-size: 40px;
@@ -601,3 +604,129 @@ article {
     font-size: 40px;
     color: white;
     margin: 0; }
+
+.items {
+  background: url("../img/bg2.jpg") no-repeat;
+  min-height: 918px; }
+
+.items__title {
+  font-family: opensanslightitalic, Arial, sans-serif;
+  font-size: 40px;
+  color: #333333;
+  position: relative;
+  text-align: center;
+  padding-top: 90px;
+  margin-top: 0;
+  margin-bottom: 94px; }
+
+.items__title::before {
+  content: '';
+  position: absolute;
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  left: 532px;
+  top: 53px; }
+
+.items__title::after {
+  content: '';
+  position: absolute;
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  left: 532px;
+  top: 172px; }
+
+.items__slide1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.items__text {
+  margin-left: 30px;
+  width: 50%; }
+  .items__text h3 {
+    font-family: latoblack, Arial, sans-serif;
+    font-size: 30px;
+    color: #dc0000; }
+
+.items__text > p {
+  font-size: 18px;
+  color: #777777; }
+
+.items__summer {
+  margin-bottom: 40px;
+  position: relative; }
+
+.items__summer::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  top: 40px;
+  left: 0; }
+
+.items__size {
+  float: left;
+  width: 70px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 28px; }
+  .items__size a {
+    color: black;
+    padding: 14px 22px; }
+
+.items__size--active {
+  background-color: black; }
+  .items__size--active a {
+    color: white;
+    padding: 14px 22px; }
+
+.items__fashion-tip {
+  margin-bottom: 90px; }
+
+.items__sizes {
+  margin-bottom: 30px; }
+
+.items__but {
+  float: left;
+  width: 170px;
+  height: 51px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 28px; }
+  .items__but a {
+    color: black;
+    padding: 14px 40px; }
+
+.items__paginations {
+  margin-top: 67px;
+  text-align: center; }
+
+.items__pagination {
+  margin-right: 10px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #878787;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  vertical-align: middle; }
+
+.items__pagination--active {
+  background: none;
+  border: 2px solid #dd0b0b;
+  vertical-align: middle; }
