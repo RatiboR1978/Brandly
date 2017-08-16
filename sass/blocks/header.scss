@@ -1,7 +1,7 @@
 .header {
-  background: url("../img/bg.jpg") no-repeat;
   min-height: 932px;
 }
+
 .header__logo {
   float: left;
   p {
@@ -83,4 +83,8 @@
   background: none;
   border: 2px solid white;
   vertical-align: middle;
+}
+
+.header__sliders img{
+  outline: none;
 }
