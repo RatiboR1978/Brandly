@@ -583,12 +583,16 @@ img {
     margin-right: 0; }
 
 .header__text {
-  margin-top: 175px;
+  margin-top: 75px;
   text-align: center;
   color: white; }
   .header__text h1 {
     font-family: latoblack, Arial, sans-serif;
     font-size: 58px; }
+
+@media (min-width: 1425px) {
+  .header__text {
+    margin-top: 175px; } }
 
 .header__text-light {
   font-family: opensanslight, Arial, sans-serif;

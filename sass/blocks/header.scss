@@ -31,12 +31,18 @@
 }
 
 .header__text {
-  margin-top: 175px;
+  margin-top: 75px;
   text-align: center;
   color: white;
   h1 {
     font-family: latoblack, Arial, sans-serif;
     font-size: 58px;
+  }
+}
+
+@media (min-width: 1425px) {
+  .header__text {
+    margin-top: 175px;
   }
 }
 
