@@ -944,7 +944,7 @@ article {
   width: 28px;
   height: 49px;
   background-image: url(../img/rarrow.png);
-  right: -99px;
+  right: -80px;
   top: 282px;
   cursor: pointer; }
 
@@ -953,7 +953,7 @@ article {
   width: 28px;
   height: 49px;
   background-image: url(../img/larrow.png);
-  left: -99px;
+  left: -80px;
   top: 282px;
   cursor: pointer; }
 
