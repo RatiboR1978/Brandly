@@ -34,14 +34,20 @@
   top: 172px;
 }
 
-.items__slide1 {
-  display: flex;
-  justify-content: space-between;
+.items__slide1:focus,
+.items__slide2:focus,
+.items__slide3:focus {
+  outline: none;
+}
+
+.items__img {
+  float: left;
 }
 
 .items__text {
+  float: right;
   margin-left: 30px;
-  width: 50%;
+  width: 48%;
   h3 {
     font-family: latoblack, Arial, sans-serif;
     font-size: 30px;
@@ -116,24 +122,4 @@
     color: black;
     padding: 14px 40px;
   }
-}
-.items__paginations {
-  margin-top: 67px;
-  text-align: center;
-}
-
-.items__pagination {
-  margin-right: 10px;
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background: #878787;
-  border-radius: 50%;
-  vertical-align: middle;
-}
-
-.items__pagination--active {
-  background: none;
-  border: 2px solid #dd0b0b;
-  vertical-align: middle;
 }
