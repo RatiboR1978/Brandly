@@ -47,5 +47,24 @@ $(function () {
     );
     wow.init();
 
+    /*typed.js https://github.com/mattboldt/typed.js
+     ====================*/
+
+    // Can also be included with a regular script tag
+
+
+    var options = {
+        strings: ["UP TO 60% DISCOUNT ON NEW ARRIVALS"],
+        typeSpeed: 40,
+        backSpeed: 10,
+        backDelay: 3000,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: false
+    };
+
+    var typed = new Typed(".typed-js", options);
+
+
 
 });

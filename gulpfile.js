@@ -35,6 +35,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'libs/jquery/dist/jquery.min.js', // Берем jQuery
+        'libs/typed.js/lib/typed.min.js', // Берем typed
         'libs/wow/dist/wow.min.js', // Берем Wow
         'libs/slick-carousel/slick/slick.min.js' // Берем Slick
 		])

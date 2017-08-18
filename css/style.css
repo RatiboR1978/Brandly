@@ -725,7 +725,8 @@ img {
   color: white; }
   .header__text h1 {
     font-family: latoblack, Arial, sans-serif;
-    font-size: 58px; }
+    font-size: 58px;
+    min-height: 67px; }
 
 @media (min-width: 1425px) {
   .header__text {
