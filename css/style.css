@@ -934,8 +934,10 @@ article {
   font-weight: bold;
   text-align: center;
   line-height: 50px;
-  margin-right: 28px; }
+  margin-right: 28px;
+  outline: none; }
   .items__size a {
+    outline: none;
     color: black;
     padding: 14px 22px; }
 

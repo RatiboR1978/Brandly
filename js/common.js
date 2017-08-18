@@ -65,6 +65,19 @@ $(function () {
 
     var typed = new Typed(".typed-js", options);
 
+    /* Нажатие кнопок в items
+     =========================*/
+
+    $('.items__size').on('click', function (e) {
+        e.preventDefault();
+        var $this = $(this);
+        if(!$this.hasClass('items__size--active')) {
+            $this.removeClass('items__size--active')
+        } 
+        $this.toggleClass('items__size--active');
+
+    })
+
 
 
 });
